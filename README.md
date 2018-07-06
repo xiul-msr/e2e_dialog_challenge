@@ -3,8 +3,8 @@
 ## News
 * TBA: [Official training data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
 * TBA: [Trial data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
+* TBA: [Registration](https://github.com/xiul-msr/e2e_dialog_challenge) is now open.
 * 7/6/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
-* 8/1/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLSf4aoCdtLsnFr_AKfp3tnTy4OUCITy5avcEEpUHJ9oZ5ZFvbg/viewform) is now open.
 
 ## Task
 This proposal introduces a Dialogue Challenge for building end-to-end task-completion dialogue systems, with the goal of encouraging the dialogue research community to collaborate and benchmark on standard datasets and unified experimental environment. In this special session, we will release human-annotated conversational data in three domains (movie-ticket booking, restaurant reservation, and taxi booking), as well as an experiment platform with built-in simulators in each domain, for training and evaluation purposes. The final submitted systems will be evaluated both in simulated setting and by human judges.
@@ -12,7 +12,8 @@ This proposal introduces a Dialogue Challenge for building end-to-end task-compl
 Please check this [description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) for more details about the task.
 
 ## Data
-In this dialogue challenge, we will release well-annotated datasets for three task-completion domains: movie-ticket booking, restaurant reservation, and taxi ordering. Here shows the statistics of the three datasets. 
+In this dialogue challenge, we will release well-annotated datasets for three task-completion domains: movie-ticket booking, restaurant reservation, and taxi ordering. Here shows the statistics of the three datasets.
+
 |Task|#Intents|#Slots|#Dialogues|
 | ------ | -------------- |
 |Movie-Ticket Booking|11|29|2890|
