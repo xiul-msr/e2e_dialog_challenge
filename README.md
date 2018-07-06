@@ -14,6 +14,7 @@ Please check this [description](https://github.com/xiul-msr/e2e_dialog_challenge
 ## Data
 In this dialogue challenge, we will release well-annotated datasets for three task-completion domains: movie-ticket booking, restaurant reservation, and taxi ordering. Here shows the statistics of the three datasets.
 
+### Statistics
 |Task|#Intents|#Slots|#Dialogues|
 | ------ | -------------- |
 |Movie-Ticket Booking|11|29|2890|
@@ -36,6 +37,7 @@ A standard RL agent (DQN model) is provided.
 ## Timeline
 |Phase|Dates|
 | ------ | -------------- |
+|TBA|TBA|
 <!---
 |1. Development Phase|June 1 – Sept 9|
 |1.1 Code (data extraction code, seq2seq baseline)|June 1|
@@ -63,5 +65,5 @@ year={2018}
 }
 ```
 
-## Contact Information
+## Contact
 * For questions specific to the challenge, you can contact us at <xiul@microsoft.com>.
