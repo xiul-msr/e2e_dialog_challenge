@@ -30,8 +30,8 @@ There is a strong correlation among the three metrics: generally speaking, a goo
 We will also conduct human evaluation for the competition. We will ask human judges to interact with the final systems submitted by participants. Besides the measurements aforementioned, each user will also give a rating on a scale of 1 to 5 based on the naturalness, coherence, and task-completion capability of the system, at the end of each dialogue session.
 
 ## Baseline Agents
-A rule-based agent is provided.
-A standard RL agent (DQN model) is provided.
+* A rule-based agent is provided.
+* A standard RL agent (DQN model) is provided.
 
 ## Timeline
 |Phase|Dates|
