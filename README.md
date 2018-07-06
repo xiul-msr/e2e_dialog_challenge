@@ -14,7 +14,6 @@ Please check this [description](https://github.com/xiul-msr/e2e_dialog_challenge
 ## Data
 In this dialogue challenge, we will release well-annotated datasets for three task-completion domains: movie-ticket booking, restaurant reservation, and taxi ordering. Here shows the statistics of the three datasets.
 
-### Statistics
 |Task|Intents|Slots|Dialogues|
 | -----| ----- | ----- | ----- |
 |Movie-Ticket Booking|11|29|2890|
