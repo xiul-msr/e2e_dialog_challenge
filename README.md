@@ -25,7 +25,7 @@ As described in the [task description](https://github.com/xiul-msr/e2e_dialog_ch
 * Success Rate: the fraction of dialogs that finish successfully.
 * Average Turns: the average length of the dialogue
 * Average Reward: the average reward received during the conversation.
-There is a strong correlation among the three metrics: generally speaking, a good policy should have a high success rate, high average reward and low average turns. Here, we choose \emph{success rate} as our major evaluation metric.
+There is a strong correlation among the three metrics: generally speaking, a good policy should have a high success rate, high average reward and low average turns. Here, we choose success rate as our major evaluation metric.
 
 We will also conduct human evaluation for the competition. We will ask human judges to interact with the final systems submitted by participants. Besides the measurements aforementioned, each user will also give a rating on a scale of 1 to 5 based on the naturalness, coherence, and task-completion capability of the system, at the end of each dialogue session.
 
@@ -48,7 +48,7 @@ We will also conduct human evaluation for the competition. We will ask human jud
 
 ## Organizers
 * [Xiujun Li](https://www.microsoft.com/en-us/research/people/mgalley/)
-* [Sarah Panda]
+* Sarah Panda
 * [Jingjing Liu](https://www.microsoft.com/en-us/research/people/jingjl/)
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
 
