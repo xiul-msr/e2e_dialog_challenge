@@ -1,4 +1,4 @@
-# SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
+# [SLT 2018](http://www.slt2018.org/) Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
 ## News
 * TBA: [Official training data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
@@ -7,7 +7,7 @@
 * 7/6/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
 
 ## Task
-This proposal introduces a Dialogue Challenge for building end-to-end task-completion dialogue systems, with the goal of encouraging the dialogue research community to collaborate and benchmark on standard datasets and unified experimental environment. In this special session, we will release human-annotated conversational data in three domains (movie-ticket booking, restaurant reservation, and taxi booking), as well as an experiment platform with built-in simulators in each domain, for training and evaluation purposes. The final submitted systems will be evaluated both in simulated setting and by human judges.
+This special session introduces a Dialogue Challenge for building end-to-end task-completion dialogue systems, with the goal of encouraging the dialogue research community to collaborate and benchmark on standard datasets and unified experimental environment. In this special session, we will release human-annotated conversational data in three domains (movie-ticket booking, restaurant reservation, and taxi booking), as well as an experiment platform with built-in simulators in each domain, for training and evaluation purposes. The final submitted systems will be evaluated both in simulated setting and by human judges.
 
 Please check this [description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) for more details about the task.
 
@@ -48,7 +48,7 @@ We will also conduct human evaluation for the competition. We will ask human jud
 
 ## Organizers
 * [Xiujun Li](https://www.microsoft.com/en-us/research/people/mgalley/)
-* Sarah Panda
+* [Sarah Panda](https://www.linkedin.com/in/sarah-panda-7345267b)
 * [Jingjing Liu](https://www.microsoft.com/en-us/research/people/jingjl/)
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
 
