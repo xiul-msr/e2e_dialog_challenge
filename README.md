@@ -1,6 +1,7 @@
-# [SLT 2018](http://www.slt2018.org/) Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
+# SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
 ## News
+* 12/18/2018 – 12/21/2018: [SLT Workshop]((http://www.slt2018.org/))
 * TBA: [Official training data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
 * TBA: [Trial data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
 * TBA: [Registration](https://github.com/xiul-msr/e2e_dialog_challenge) is now open.
