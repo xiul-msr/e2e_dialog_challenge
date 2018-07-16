@@ -2,10 +2,13 @@
 
 ## News
 * 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/)
-* TBA: [Official training data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
-* TBA: [Trial data](https://github.com/xiul-msr/e2e_dialog_challenge) is up.
-* TBA: [Registration](https://github.com/xiul-msr/e2e_dialog_challenge) is now open.
-* 7/6/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
+* 11/25/2018: Paper acceptance announcement.
+* 11/11/2018: Paper submission.
+* 11/04/2018: Results (including human evaluation) Annoucement.
+* 10/14/2018: System submission.
+* 07/30/2018: [Data and Simulators]() are up.
+* 07/16/2018: [Registration]() is now open.
+* 07/06/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
 
 ## Task
 This special session introduces a Dialogue Challenge for building end-to-end task-completion dialogue systems, with the goal of encouraging the dialogue research community to collaborate and benchmark on standard datasets and unified experimental environment. In this special session, we will release human-annotated conversational data in three domains (movie-ticket booking, restaurant reservation, and taxi booking), as well as an experiment platform with built-in simulators in each domain, for training and evaluation purposes. The final submitted systems will be evaluated both in simulated setting and by human judges.
