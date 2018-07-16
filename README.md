@@ -7,7 +7,7 @@
 * 11/04/2018: Results (including human evaluation) Annoucement.
 * 10/14/2018: System submission.
 * 07/30/2018: [Data and Simulators]() are up.
-* 07/16/2018: [Registration]() is now open.
+* 07/16/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLScWl3BYiCLHjR2hGrkehx1kS53vvMTmQ2ktuvGNYSAtiQLSpw/viewform?fbzx=-2667838940084889600) is now open.
 * 07/06/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
 
 ## Task
