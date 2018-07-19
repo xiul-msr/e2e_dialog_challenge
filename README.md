@@ -51,7 +51,7 @@ We will also conduct human evaluation for the competition. We will ask human jud
  -->
 
 ## Organizers
-* [Xiujun Li](https://www.microsoft.com/en-us/research/people/mgalley/)
+* [Xiujun Li](https://www.microsoft.com/en-us/research/people/xiul/)
 * [Sarah Panda](https://www.linkedin.com/in/sarah-panda-7345267b)
 * [Jingjing Liu](https://www.microsoft.com/en-us/research/people/jingjl/)
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
