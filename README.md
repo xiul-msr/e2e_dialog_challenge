@@ -4,7 +4,7 @@
 * 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)
 * 11/25/2018: Paper acceptance announcement.
 * 11/11/2018: Paper submission.
-* 11/04/2018: Results (including human evaluation) Annoucement.
+* 11/04/2018: Results (including human evaluation) Announcement.
 * 10/14/2018: System submission.
 * 07/30/2018: [Data and Simulators]() are up.
 * 07/16/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLScWl3BYiCLHjR2hGrkehx1kS53vvMTmQ2ktuvGNYSAtiQLSpw/viewform) is now open.
