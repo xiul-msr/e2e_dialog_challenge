@@ -66,6 +66,13 @@ author={Li, Xiujun and Panda Sarah and Liu, Jingjing and Gao, Jianfeng},
 booktitle={SLT},
 year={2018}
 }
+
+@article{li2016user,
+  title={A User Simulator for Task-Completion Dialogues},
+  author={Li, Xiujun and Lipton, Zachary C and Dhingra, Bhuwan and Li, Lihong and Gao, Jianfeng and Chen, Yun-Nung},
+  journal={arXiv preprint arXiv:1612.05688},
+  year={2016}
+}
 ```
 
 ## Contact
