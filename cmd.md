@@ -92,11 +92,11 @@ all the restaurant data is under this folder: ./src/deep_dialog/data_restaurant
 all the restaurant data is under this folder: ./src/deep_dialog/data_taxi
 
 * Restaurant Knowledge Bases<br/>
-`taxi.kb.1k.v1.p` --- 46.22% success rate (for `user_goals_first.v3.p`)<br/>
-`taxi.kb.2k.v1.p` --- 73.00% success rate (for `user_goals_first.v3.p`)
+`taxi.kb.1k.v1.p` --- 46.22% success rate (for `user_goals_first.v4.p`)<br/>
+`taxi.kb.2k.v1.p` --- 73.00% success rate (for `user_goals_first.v4.p`)
 
 * User Goals<br/>
-`user_goals_first.v3.p` --- user goals extracted from the first user turn<br/>
+`user_goals_first.v4.p` --- user goals extracted from the first user turn<br/>
 
 * NLG Rule Template<br/>
 `sim_dia_act_nl_pairs.json` --- some predefined NLG rule templates for both User simulator and Agent.
@@ -301,7 +301,7 @@ python run.py --agt 12 --usr 2 --max_turn 30
 ```sh
 python run.py --agt 8 --usr 3 --max_turn 30
 	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
-	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
+	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v4.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
 	      --dict_path ./deep_dialog/data_taxi/slot_dict.v1.p
@@ -319,18 +319,18 @@ Train End2End RL Agent without NLU and NLG (with simulated noise in NLU)
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
 	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
-	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
+	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v4.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
 	      --dict_path ./deep_dialog/data_taxi/slot_dict.v1.p
-	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532548061.28]_92_99_190_0.986.p
-	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532621815.29]_38_39_380_0.992.p
+	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532457558.95]_95_99_194_0.985.p
+	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532583523.63]_88_99_400_0.998.p
 	      --diaact_nl_pairs ./deep_dialog/data_taxi/sim_dia_act_nl_pairs.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/taxi/rl_agent/
 	      --run_mode 3
 	      --act_level 0
 	      --slot_err_prob 0.00
@@ -343,18 +343,18 @@ Train End2End RL Agent with NLU and NLG
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
 	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
-	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
+	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v4.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
 	      --dict_path ./deep_dialog/data_taxi/slot_dict.v1.p
-	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532548061.28]_92_99_190_0.986.p
-	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532621815.29]_38_39_380_0.992.p
+	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532457558.95]_95_99_194_0.985.p
+	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532583523.63]_88_99_400_0.998.p
 	      --diaact_nl_pairs ./deep_dialog/data_taxi/sim_dia_act_nl_pairs.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/taxi/rl_agent_nl/
 	      --run_mode 3
 	      --act_level 1
 	      --slot_err_prob 0.00
@@ -367,12 +367,12 @@ Test RL Agent with N dialogues:
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
 	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
-	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
+	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v4.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
 	      --dict_path ./deep_dialog/data_taxi/slot_dict.v1.p
-	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532548061.28]_92_99_190_0.986.p
-	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532621815.29]_38_39_380_0.992.p
+	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532457558.95]_95_99_194_0.985.p
+	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532583523.63]_88_99_400_0.998.p
 	      --diaact_nl_pairs ./deep_dialog/data_taxi/sim_dia_act_nl_pairs.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
@@ -382,9 +382,26 @@ python run.py --agt 13 --usr 3 --max_turn 30
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --trained_model_path ./deep_dialog/checkpoints/rl_agent/noe2e/agt_9_478_500_0.98000.p
+	      --trained_model_path ./deep_dialog/checkpoints/taxi/rl_agent/agt_9_478_500_0.98000.p
 	      --run_mode 3
 ```
+
+## Baseline Results
+### Movie Domain
+|kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
+| -----| ----- | ----- | ----- | ----- | ----- | ----- |
+
+### Restaurant Domain
+|kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
+| -----| ----- | ----- | ----- | ----- | ----- | ----- |
+|restaurant.kb.1k.v1.p|user_goals_first.v1.p|0.4780|0.1284|0.072| - | - |
+|restaurant.kb.2k.v1.p|user_goals_first.v1.p|0.6672|0.2334|0.133| - | - |
+
+### Taxi Domain
+|kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
+| -----| ----- | ----- | ----- | ----- | ----- | ----- |
+|taxi.kb.1k.v1.p|user_goals_first.v4.p|0.4622|0.1226|0.082| - | - |
+|taxi.kb.2k.v1.p|user_goals_first.v4.p|0.7300| - | - | - | - |
 
 
 ## Evaluation
