@@ -388,11 +388,12 @@ python run.py --agt 13 --usr 3 --max_turn 30
 
 ## Baseline Results
 ### Movie Domain
-|kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
+|kb|goals|upper bound|agt=6|agt=6 (NL)|agt=9|agt=9 (NL)|
 | -----| ----- | ----- | ----- | ----- | ----- | ----- |
+| - | - | - | - | - | - | - |
 
 ### Restaurant Domain
-|kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
+|kb|goals|upper bound|agt=10|agt=10 (NL)|agt=12|agt=12 (NL)|
 | -----| ----- | ----- | ----- | ----- | ----- | ----- |
 |restaurant.kb.1k.v1.p|user_goals_first.v1.p|0.4780|0.1284|0.072| - | - |
 |restaurant.kb.2k.v1.p|user_goals_first.v1.p|0.6672|0.2334|0.133| - | - |
