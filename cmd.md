@@ -22,7 +22,7 @@ This document describes how to run the simulation and different dialogue agents 
 
 
 ### Data setting
-`--movie_kb_path`: the movie kb path for agent side<br/>
+`--kb_path`: the kb path for agent side<br/>
 `--goal_file_path`: the user goal file path for user simulator side
 
 ### Model setting
@@ -115,7 +115,7 @@ all the restaurant data is under this folder: ./src/deep_dialog/data_taxi
 #### Rule Agent
 ```sh
 python run.py --agt 5 --usr 1 --max_turn 40
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p
 	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
@@ -127,8 +127,7 @@ python run.py --agt 5 --usr 1 --max_turn 40
 NL Input
 ```sh
 python run.py --agt 0 --usr 1 --max_turn 40
-	      --episodes 150
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p
 	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
@@ -140,8 +139,7 @@ python run.py --agt 0 --usr 1 --max_turn 40
 Dia_Act Input
 ```sh
 python run.py --agt 0 --usr 1 --max_turn 40
-	      --episodes 150
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p 
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p 
 	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
@@ -155,7 +153,7 @@ python run.py --agt 0 --usr 1 --max_turn 40
 Train End2End RL Agent without NLU and NLG (with simulated noise in NLU)
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
@@ -173,7 +171,7 @@ python run.py --agt 9 --usr 1 --max_turn 40
 Train End2End RL Agent with NLU and NLG
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
@@ -191,7 +189,7 @@ python run.py --agt 9 --usr 1 --max_turn 40
 Test RL Agent with N dialogues:
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --movie_kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data/movie_kb.1k.p
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 300 
@@ -210,7 +208,7 @@ python run.py --agt 9 --usr 1 --max_turn 40
 #### Rule Agent
 ```sh
 python run.py --agt 10 --usr 2 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_restaurant/user_goals_first.v1.p
 	      --slot_set ./deep_dialog/data_restaurant/restaurant_slots.txt
 	      --act_set ./deep_dialog/data_restaurant/dia_acts.txt
@@ -229,7 +227,7 @@ python run.py --agt 10 --usr 2 --max_turn 30
 Train End2End RL Agent without NLU and NLG (with simulated noise in NLU)
 ```sh
 python run.py --agt 12 --usr 2 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_restaurant/user_goals_first.v1.p
 	      --slot_set ./deep_dialog/data_restaurant/restaurant_slots.txt
 	      --act_set ./deep_dialog/data_restaurant/dia_acts.txt
@@ -253,7 +251,7 @@ python run.py --agt 12 --usr 2 --max_turn 30
 Train End2End RL Agent with NLU and NLG
 ```sh
 python run.py --agt 12 --usr 2 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_restaurant/user_goals_first.v1.p
 	      --slot_set ./deep_dialog/data_restaurant/restaurant_slots.txt
 	      --act_set ./deep_dialog/data_restaurant/dia_acts.txt
@@ -277,7 +275,7 @@ python run.py --agt 12 --usr 2 --max_turn 30
 Test RL Agent with N dialogues:
 ```sh
 python run.py --agt 12 --usr 2 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_restaurant/user_goals_first.v1.p
 	      --slot_set ./deep_dialog/data_restaurant/restaurant_slots.txt
 	      --act_set ./deep_dialog/data_restaurant/dia_acts.txt
@@ -302,13 +300,13 @@ python run.py --agt 12 --usr 2 --max_turn 30
 #### Rule Agent
 ```sh
 python run.py --agt 8 --usr 3 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
 	      --dict_path ./deep_dialog/data_taxi/slot_dict.v1.p
-	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532548061.28]_92_99_190_0.986.p
-	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532621815.29]_38_39_380_0.992.p
+	      --nlg_model_path ./deep_dialog/models/nlg/taxi/lstm_tanh_[1532457558.95]_95_99_194_0.985.p
+	      --nlu_model_path ./deep_dialog/models/nlu/taxi/lstm_[1532583523.63]_88_99_400_0.998.p
 	      --diaact_nl_pairs ./deep_dialog/data_taxi/sim_dia_act_nl_pairs.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
@@ -320,7 +318,7 @@ python run.py --agt 8 --usr 3 --max_turn 30
 Train End2End RL Agent without NLU and NLG (with simulated noise in NLU)
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
@@ -344,7 +342,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 Train End2End RL Agent with NLU and NLG
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt
@@ -368,7 +366,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 Test RL Agent with N dialogues:
 ```sh
 python run.py --agt 13 --usr 3 --max_turn 30
-	      --movie_kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
+	      --kb_path ./deep_dialog/data_taxi/taxi.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_taxi/user_goals_first.v3.p
 	      --slot_set ./deep_dialog/data_taxi/taxi_slots.txt
 	      --act_set ./deep_dialog/data_taxi/dia_acts.txt

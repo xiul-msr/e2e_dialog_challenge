@@ -57,7 +57,7 @@ We will also conduct human evaluation for the competition. We will ask human jud
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
 
 ## Reference
-If you submit any system to this challenge or publish any other work making use of the resources provided on this project, we ask you to cite the following task description paper:
+If you submit any system to this challenge or publish any other work making use of the resources provided on this project, we ask you to cite the following task description papers:
 
 ```
 @inproceedings{li2018mschallenge,
