@@ -7,7 +7,7 @@
 * 11/04/2018: Results (including human evaluation) Announcement.
 * 10/14/2018: System submission. (Format to be announaced.)
 * 08/03/2018: Movie domain are up.
-* 07/28/2018: Restaurant and Taxi domains: [Data](https://github.com/xiul-msr/e2e_dialog_challenge/data/) and [Simulators](https://github.com/xiul-msr/e2e_dialog_challenge/system/) are up, see cmd.md(https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
+* 07/28/2018: Restaurant and Taxi domains: [Data](https://github.com/xiul-msr/e2e_dialog_challenge/data/) and [Simulators](https://github.com/xiul-msr/e2e_dialog_challenge/system/) are up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 * 07/16/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLScWl3BYiCLHjR2hGrkehx1kS53vvMTmQ2ktuvGNYSAtiQLSpw/viewform) is now open.
 * 07/06/2018: [Task description](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/microsoft-dialogue-challenge-slt2018.pdf) is up.
 
