@@ -446,7 +446,7 @@ To evaluate the performance of agents, three metrics are available: success rate
 
 1. Plotting Learning Curve<br/>
 Restaurant Domain:
-``` python draw_learning_curve.py --cmd 2```
+``` python draw_learning_curve.py --cmd 2```<br/>
 Taxi Domain:
 ``` python draw_learning_curve.py --cmd 3```
 2. Pull out the numbers and draw the curves in Excel
