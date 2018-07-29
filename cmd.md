@@ -115,8 +115,14 @@ all the restaurant data is under this folder: ./src/deep_dialog/data_taxi
 #### Rule Agent
 ```sh
 python run.py --agt 5 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
 	      --episodes 500
@@ -127,8 +133,14 @@ python run.py --agt 5 --usr 1 --max_turn 40
 NL Input
 ```sh
 python run.py --agt 0 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
 	      --episodes 500
@@ -139,8 +151,14 @@ python run.py --agt 0 --usr 1 --max_turn 40
 Dia_Act Input
 ```sh
 python run.py --agt 0 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p 
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p 
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
 	      --episodes 500
@@ -153,52 +171,70 @@ python run.py --agt 0 --usr 1 --max_turn 40
 Train End2End RL Agent without NLU and NLG (with simulated noise in NLU)
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/movie/noe2e/
 	      --run_mode 3
 	      --act_level 0
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --warm_start 1
 	      --warm_start_epochs 120
 ```
 Train End2End RL Agent with NLU and NLG
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/movie/e2e/
 	      --run_mode 3
 	      --act_level 1
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --warm_start 1
 	      --warm_start_epochs 120
 ```
 Test RL Agent with N dialogues:
 ```sh
 python run.py --agt 9 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --dqn_hidden_size 80
 	      --experience_replay_pool_size 1000
 	      --episodes 300 
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/movie/noe2e/
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --goal_file_path ./deep_dialog/data/user_goals_first_turn_template.part.movie.v1.p
 	      --trained_model_path ./deep_dialog/checkpoints/rl_agent/noe2e/agt_9_478_500_0.98000.p
 	      --run_mode 3
 ```
@@ -239,7 +275,7 @@ python run.py --agt 12 --usr 2 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/restaurant/non_nl/
 	      --run_mode 3
 	      --act_level 0
 	      --slot_err_prob 0.00
@@ -263,7 +299,7 @@ python run.py --agt 12 --usr 2 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/restaurant/nl/
 	      --run_mode 3
 	      --act_level 1
 	      --slot_err_prob 0.00
@@ -287,11 +323,11 @@ python run.py --agt 12 --usr 2 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 300 
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/restaurant/non_nl/
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --trained_model_path ./deep_dialog/checkpoints/rl_agent/noe2e/agt_9_478_500_0.98000.p
+	      --trained_model_path ./deep_dialog/checkpoints/restaurant/non_nl/dqn/agt_12_353_500_0.40600.p
 	      --run_mode 3
 ```
 
@@ -330,7 +366,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/taxi/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/taxi/non_nl/dqn/
 	      --run_mode 3
 	      --act_level 0
 	      --slot_err_prob 0.00
@@ -354,7 +390,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 500
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/taxi/rl_agent_nl/
+	      --write_model_dir ./deep_dialog/checkpoints/taxi/nl/dqn/
 	      --run_mode 3
 	      --act_level 1
 	      --slot_err_prob 0.00
@@ -378,38 +414,41 @@ python run.py --agt 13 --usr 3 --max_turn 30
 	      --experience_replay_pool_size 1000
 	      --episodes 300 
 	      --simulation_epoch_size 100
-	      --write_model_dir ./deep_dialog/checkpoints/rl_agent/
+	      --write_model_dir ./deep_dialog/checkpoints/non_nl/dqn/
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --trained_model_path ./deep_dialog/checkpoints/taxi/rl_agent/agt_9_478_500_0.98000.p
+	      --trained_model_path ./deep_dialog/checkpoints/taxi/non_nl/dqn/agt_13_486_490_0.56000.p
 	      --run_mode 3
 ```
 
 ## Baseline Results
-### Movie Domain
-|kb|goals|upper bound|agt=6|agt=6 (NL)|agt=9|agt=9 (NL)|
+### Movie Domain (To-Be-Appeared)
+|kb|goals|upper bound|agt=5|agt=5 (NL)|agt=9|agt=9 (NL)|
 | -----| ----- | ----- | ----- | ----- | ----- | ----- |
 | - | - | - | - | - | - | - |
 
 ### Restaurant Domain
 |kb|goals|upper bound|agt=10|agt=10 (NL)|agt=12|agt=12 (NL)|
 | -----| ----- | ----- | ----- | ----- | ----- | ----- |
-|restaurant.kb.1k.v1.p|user_goals_first.v1.p|0.4780|0.1284|0.072| - | - |
+**|restaurant.kb.1k.v1.p|user_goals_first.v1.p|0.4780|0.1284|0.072|0.4538|0.3018|**
 |restaurant.kb.2k.v1.p|user_goals_first.v1.p|0.6672|0.2334|0.133| - | - |
 
 ### Taxi Domain
 |kb|goals|upper bound|agt=8|agt=8 (NL)|agt=13|agt=13 (NL)|
 | -----| ----- | ----- | ----- | ----- | ----- | ----- |
-|taxi.kb.1k.v1.p|user_goals_first.v4.p|0.4622|0.1226|0.082| - | - |
-|taxi.kb.2k.v1.p|user_goals_first.v4.p|0.7300| - | - | - | - |
+**|taxi.kb.1k.v1.p|user_goals_first.v4.p|0.4622|0.1226|0.082|0.4456|0.205|**
+|taxi.kb.2k.v1.p|user_goals_first.v4.p|0.7300|0.2118|0.1388| - | - |
 
 
 ## Evaluation
 To evaluate the performance of agents, three metrics are available: success rate, average reward, average turns. Here we show the learning curve with success rate.
 
-1. Plotting Learning Curve
-``` python draw_learning_curve.py --result_file ./deep_dialog/checkpoints/rl_agent/noe2e/agt_9_performance_records.json```
+1. Plotting Learning Curve<br/>
+Restaurant Domain:
+``` python draw_learning_curve.py --cmd 2```
+Taxi Domain:
+``` python draw_learning_curve.py --cmd 3```
 2. Pull out the numbers and draw the curves in Excel
 
 ## Contact
