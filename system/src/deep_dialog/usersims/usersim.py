@@ -9,8 +9,6 @@ a rule-based user simulator
 
 import random, copy
 
-from debug_scripts import mis_pairs
-
 class UserSimulator:
     """ Parent class for all user sims to inherit from """
 
@@ -56,21 +54,8 @@ class UserSimulator:
         user_nlg_sentence = self.nlg_model.convert_diaact_to_nl(user_action, 'usr')
         user_action['nl'] = user_nlg_sentence
         
-        if self.simulator_act_level == 1:
-            #print 'original user action', user_action
-            #or_usr_action = {'diaact':user_action['diaact'], 'request_slots':user_action['request_slots'], 'inform_slots':user_action['inform_slots'], 'nl':user_action['nl']}
-            
+        if self.simulator_act_level == 1:            
             user_nlu_res = self.nlu_model.generate_dia_act(user_action['nl']) # NLU
             if user_nlu_res != None:
                 #user_nlu_res['diaact'] = user_action['diaact'] # or not?
                 user_action.update(user_nlu_res)
-            
-            # debug  
-            #if or_usr_action['diaact'] == user_nlu_res['diaact'] and or_usr_action['inform_slots'].keys() == user_nlu_res['inform_slots'].keys() \
-            #    and or_usr_action['request_slots'].keys() == user_nlu_res['request_slots'].keys():
-            #    pass
-            #else:
-                #print 'usr_nlu_res', user_nlu_res
-            #    if or_usr_action not in mis_pairs: 
-            #        mis_pair = {'or_act': copy.deepcopy(or_usr_action), 'nlu_act': copy.deepcopy(user_nlu_res)}
-            #        mis_pairs.append(mis_pair)

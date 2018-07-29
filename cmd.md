@@ -444,7 +444,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 ## Evaluation
 To evaluate the performance of agents, three metrics are available: success rate, average reward, average turns. Here we show the learning curve with success rate.
 
-1. Plotting Learning Curve<br/>
+1. Plotting Learning Curves<br/>
 Restaurant Domain:
 ``` python draw_learning_curve.py --cmd 2```<br/>
 Taxi Domain:
