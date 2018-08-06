@@ -121,7 +121,7 @@ all the restaurant data is under this folder: ./src/deep_dialog/data_taxi
 #### Rule Agent
 ```sh
 python run.py --agt 4 --usr 1 --max_turn 40
-	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --kb_path ./deep_dialog/data_movie/movie.kb.1k.v1.p
 	      --goal_file_path ./deep_dialog/data_movie/user_goals_first.v2.p
 	      --slot_set ./deep_dialog/data_movie/slot_set.txt
 	      --act_set ./deep_dialog/data_movie/dia_acts.txt

@@ -120,7 +120,7 @@ start_dia_acts = {
 # start_taxi
 
 movie_request_slots = ['moviename', 'starttime', 'city', 'date', 'theater', 'numberofpeople']
-movie_inform_slots = []
+movie_inform_slots = ['moviename', 'theater'] #, 'starttime'
 
 restaurant_request_slots = ["restaurantname", "date", "numberofpeople", "starttime", "address"]
 restaurant_inform_slots = ["restaurantname", "address"] # "starttime", "date", 

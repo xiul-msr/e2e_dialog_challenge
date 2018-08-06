@@ -181,7 +181,8 @@ elif agt == 2:
 elif agt == 3:
     agent = RandomAgent(kb, act_set, slot_set, agent_params)
 elif agt == 4:
-    agent = EchoAgent(kb, act_set, slot_set, agent_params)
+    #agent = EchoAgent(kb, act_set, slot_set, agent_params)
+    agent = RequestInformSlotAgent(kb, act_set, slot_set, agent_params, movie_request_slots, movie_inform_slots)
 elif agt == 5: # movie request rule agent
     agent = RequestBasicsAgent(kb, act_set, slot_set, agent_params, movie_request_slots)
 elif agt == 6: # restaurant request rule agent
@@ -192,7 +193,7 @@ elif agt == 8: # taxi request-inform rule agent
     agent = RequestInformSlotAgent(kb, act_set, slot_set, agent_params, taxi_request_slots, taxi_inform_slots)
 elif agt == 9: # DQN agent for movie domain
     agent = AgentDQN(kb, act_set, slot_set, agent_params)
-    agent.initialize_config(dialog_config.movie_request_slots, dialog_config.movie_inform_slots)
+    agent.initialize_config(movie_request_slots, movie_inform_slots)
 elif agt == 10: # restaurant request-inform rule agent
     agent = RequestInformSlotAgent(kb, act_set, slot_set, agent_params, restaurant_request_slots, restaurant_inform_slots)
 elif agt == 11: # taxi request-inform-cost rule agent
@@ -200,11 +201,11 @@ elif agt == 11: # taxi request-inform-cost rule agent
 elif agt == 12: # DQN agent for restaurant domain
     load_actions(dialog_config.restaurant_sys_request_slots, dialog_config.restaurant_sys_inform_slots)
     agent = AgentDQN(kb, act_set, slot_set, agent_params)
-    agent.initialize_config(dialog_config.restaurant_request_slots, dialog_config.restaurant_inform_slots)
+    agent.initialize_config(restaurant_request_slots, restaurant_inform_slots)
 elif agt == 13: # DQN agent for taxi domain
     load_actions(dialog_config.taxi_sys_request_slots, dialog_config.taxi_sys_inform_slots)
     agent = AgentDQN(kb, act_set, slot_set, agent_params)
-    agent.initialize_config(dialog_config.taxi_request_slots, dialog_config.taxi_inform_slots)
+    agent.initialize_config(taxi_request_slots, taxi_inform_slots)
     
 ################################################################################
 #    Add your agent here
