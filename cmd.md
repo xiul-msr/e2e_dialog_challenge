@@ -51,15 +51,21 @@ This document describes how to run the simulation and different dialogue agents 
 all the movie data is under this folder: ./src/deep_dialog/data
 
 * Movie Knowledge Bases<br/>
-`movie_kb.1k.p` --- 94% success rate (for `user_goals_first_turn_template_subsets.v1.p`)<br/>
+<!---`movie_kb.1k.p` --- 94% success rate (for `user_goals_first_turn_template_subsets.v1.p`)<br/>
 `movie_kb.v2.p` --- 36% success rate (for `user_goals_first_turn_template_subsets.v1.p`)
+--->
+!---`movie_kb.1k.v1.p` --- 52% success rate (for `user_goals_first.v2.p`)<br/>
 
 * User Goals<br/>
-`user_goals_first_turn_template.v2.p` --- user goals extracted from the first user turn<br/>
+<!---`user_goals_first_turn_template.v2.p` --- user goals extracted from the first user turn<br/>
 `user_goals_first_turn_template.part.movie.v1.p` --- a subset of user goals [Please use this one, the upper bound success rate on movie_kb.1k.json is 0.9765.]
+--->
+`user_goals_first.v2.p` --- user goals extracted from the first user turn
 
 * NLG Rule Template<br/>
-`dia_act_nl_pairs.v6.json` --- some predefined NLG rule templates for both User simulator and Agent.
+<!---`dia_act_nl_pairs.v6.json` --- some predefined NLG rule templates for both User simulator and Agent.
+--->
+---`dia_act_nl_pairs.v7.json` --- some predefined NLG rule templates for both User simulator and Agent.
 
 * Dialog Act Intent<br/>
 `dia_acts.txt`
