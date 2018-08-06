@@ -127,7 +127,7 @@ python run.py --agt 4 --usr 1 --max_turn 40
 	      --act_set ./deep_dialog/data_movie/dia_acts.txt
 	      --dict_path ./deep_dialog/data_movie/slot_dict.v1.p
 	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_[1533529279.91]_87_99_199_0.988.p
-	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1533588045.3]_38_38_240_0.998
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1533588045.3]_38_38_240_0.998.p
 	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v7.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
