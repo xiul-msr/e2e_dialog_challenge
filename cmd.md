@@ -122,24 +122,35 @@ all the restaurant data is under this folder: ./src/deep_dialog/data_taxi
 ```sh
 python run.py --agt 5 --usr 1 --max_turn 40
 	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
-	      #--goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
 	      --goal_file_path ./deep_dialog/data_movie/user_goals_first.v2.p
 	      --slot_set ./deep_dialog/data_movie/slot_set.txt
 	      --act_set ./deep_dialog/data_movie/dia_acts.txt
-	      #--dict_path ./deep_dialog/data_movie/dicts.v3.p
 	      --dict_path ./deep_dialog/data_movie/slot_dict.v1.p
-	      #--nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
 	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_[1533529279.91]_87_99_199_0.988.p
-	      #--nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
 	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1533588045.3]_38_38_240_0.998
-	      #--diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
 	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v7.json
 	      --intent_err_prob 0.00
 	      --slot_err_prob 0.00
 	      --episodes 500
 	      --act_level 0
 ```
-
+<!---
+```sh
+python run.py --agt 5 --usr 1 --max_turn 40
+	      --kb_path ./deep_dialog/data_movie/movie_kb.1k.p
+	      --goal_file_path ./deep_dialog/data_movie/user_goals_first_turn_template.part.movie.v1.p
+	      --slot_set ./deep_dialog/data_movie/slot_set.txt
+	      --act_set ./deep_dialog/data_movie/dia_acts.txt
+	      --dict_path ./deep_dialog/data_movie/dicts.v3.p
+	      --nlg_model_path ./deep_dialog/models/nlg/movie/lstm_tanh_relu_[1468202263.38]_2_0.610.p
+	      --nlu_model_path ./deep_dialog/models/nlu/movie/lstm_[1468447442.91]_39_80_0.921.p
+	      --diaact_nl_pairs ./deep_dialog/data_movie/dia_act_nl_pairs.v6.json
+	      --intent_err_prob 0.00
+	      --slot_err_prob 0.00
+	      --episodes 500
+	      --act_level 0
+```
+--->
 #### Cmd Agent
 NL Input
 ```sh
