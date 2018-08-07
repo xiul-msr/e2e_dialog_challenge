@@ -38,11 +38,11 @@ We will also conduct human evaluation for the competition. We will ask human jud
 * A rule-based agent is provided.
 * A standard RL agent (DQN model) is provided.
 
+<!---
 ## Timeline
 |Phase|Dates|
 | ------ | -------------- |
 |TBA|TBA|
-<!---
 |1. Development Phase|June 1 – Sept 9|
 |1.1 Code (data extraction code, seq2seq baseline)|June 1|
 |1.2 "Trial" data made available|June 18|
@@ -78,3 +78,6 @@ If you submit any system to this challenge or publish any other work making use 
 
 ## Contact
 * For questions specific to the challenge, you can contact us at <xiul@microsoft.com>.
+
+## FQA
+1. How to implement an agent: see [here](https://github.com/xiul-msr/e2e_dialog_challenge/issues/1)
