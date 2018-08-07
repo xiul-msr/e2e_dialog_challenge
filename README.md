@@ -61,11 +61,11 @@ We will also conduct human evaluation for the competition. We will ask human jud
 If you submit any system to this challenge or publish any other work making use of the resources provided on this project, we ask you to cite the following task description papers:
 
 ```
-@inproceedings{li2018mschallenge,
-title={Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems},
-author={Li, Xiujun and Panda Sarah and Liu, Jingjing and Gao, Jianfeng},
-booktitle={SLT},
-year={2018}
+@article{li2018microsoft,
+  title={Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems},
+  author={Li, Xiujun and Panda, Sarah and Liu, Jingjing and Gao, Jianfeng},
+  journal={arXiv preprint arXiv:1807.11125},
+  year={2018}
 }
 
 @article{li2016user,
