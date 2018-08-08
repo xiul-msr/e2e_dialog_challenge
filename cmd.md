@@ -559,7 +559,7 @@ python run.py --agt 13 --usr 3 --max_turn 30
 ### Movie Domain
 |kb|goals|upper bound|agt=4|agt=4 (NL)|agt=9|agt=9 (NL)|
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-|movie.kb.1k.v1.p|user_goals_first.v2.p|0.5237|0.078|0.061| - | - |
+|movie.kb.1k.v1.p|user_goals_first.v2.p|0.5237|0.078|0.061|0.441|0.183|
 
 ### Restaurant Domain
 |kb|goals|upper bound|agt=10|agt=10 (NL)|agt=12|agt=12 (NL)|
