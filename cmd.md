@@ -345,7 +345,7 @@ python run.py --agt 9 --usr 1 --max_turn 40
 	      --slot_err_prob 0.00
 	      --intent_err_prob 0.00
 	      --batch_size 16
-	      --trained_model_path ./deep_dialog/checkpoints/movie/non_nl/agt_9_171_490_0.98000.p
+	      --trained_model_path ./deep_dialog/checkpoints/movie/non_nl/dqn/agt_9_191_500_0.40600.p
 	      --run_mode 3
 ```
 <!---
