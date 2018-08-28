@@ -14,6 +14,31 @@ import numpy as np
 from deep_dialog import dialog_config
 from deep_dialog.nlg.lstm_decoder_tanh import lstm_decoder_tanh
 
+def to_consistent_data_structure(obj):
+    """obj could be set, dictionary, list, tuple or nested of them.
+    This function will convert all dictionaries inside the obj to be list of tuples (sorted by key),
+    will convert all set inside the obj to be list (sorted by to_consistent_data_structure(value))
+
+    >>> to_consistent_data_structure([
+        {"a" : 3, "b": 4},
+        ( {"e" : 5}, (6, 7)
+        ),
+        set([10, ]),
+        11
+    ])
+
+    Out[2]: [[('a', 3), ('b', 4)], ([('e', 5)], (6, 7)), [10], 11]
+    """
+
+    if isinstance(obj, dict):
+        return [(k, to_consistent_data_structure(v)) for k, v in sorted(list(obj.items()), key=lambda x: x[0])]
+    elif isinstance(obj, set):
+        return sorted([to_consistent_data_structure(v) for v in obj])
+    elif isinstance(obj, list):
+        return [to_consistent_data_structure(v) for v in obj]
+    elif isinstance(obj, tuple):
+        return tuple([to_consistent_data_structure(v) for v in obj])
+    return obj
 
 class nlg:
     def __init__(self):
@@ -80,6 +105,18 @@ class nlg:
     def translate_diaact(self, dia_act):
         """ prepare the diaact into vector representation, and generate the sentence by Model """
         
+
+        if self.params['dia_slot_val'] != 1:
+            if not hasattr(self, "nlg_cache"):
+                self.nlg_cache = {}
+            tmp_dia_act = copy.deepcopy(dia_act)
+            tmp_dia_act['inform_slots'] = {inform_slot_name: "" for inform_slot_name in tmp_dia_act['inform_slots'].keys()}
+            dia_act_key = repr(to_consistent_data_structure(tmp_dia_act))
+            pred_sentence = self.nlg_cache.get(dia_act_key, None)
+            if pred_sentence is not None:
+                sentence = self.post_process(pred_sentence, dia_act['inform_slots'], self.slot_dict)
+                return sentence
+
         word_dict = self.word_dict
         template_word_dict = self.template_word_dict
         act_dict = self.act_dict
@@ -131,8 +168,11 @@ class nlg:
         #pred_ys, pred_words = nlg_model['model'].forward(inverse_word_dict, dia_act_rep, nlg_model['params'], predict_model=True)
         pred_ys, pred_words = self.model.beam_forward(inverse_word_dict, dia_act_rep, self.params, predict_model=True)
         pred_sentence = ' '.join(pred_words[:-1])
+
+        if self.params['dia_slot_val'] != 1:
+            self.nlg_cache[dia_act_key] = pred_sentence
+
         sentence = self.post_process(pred_sentence, dia_act['inform_slots'], slot_dict)
-            
         return sentence
     
     
