@@ -446,7 +446,7 @@ def run_episodes(count, status):
     status['count'] += count
     
     if (agt == 9 or agt == 12 or agt == 13)  and params['trained_model_path'] == None:
-        save_model(params['write_model_dir'], agt, float(successes)/count, best_model['model'], best_res['epoch'], count)
+        save_model(params['write_model_dir'], agt, best_res['success_rate'], best_model['model'], best_res['epoch'], count)
         save_performance_records(params['write_model_dir'], agt, performance_records)
     
     
