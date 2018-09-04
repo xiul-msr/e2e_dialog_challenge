@@ -177,10 +177,13 @@ class nlg:
     
     
     def load_nlg_model(self, model_path):
-        """ load the trained NLG model """  
-        
-        model_params = pickle.load(open(model_path, 'rb'))
-    
+        """ load the trained NLG model """
+        import sys
+        if 'win' in sys.platform:
+            model_params = pickle.load(open(model_path, 'r'))
+        else:
+            model_params = pickle.load(open(model_path, 'rb'))
+
         hidden_size = model_params['model']['Wd'].shape[0]
         output_size = model_params['model']['Wd'].shape[1]
     

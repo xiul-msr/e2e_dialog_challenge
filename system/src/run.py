@@ -65,12 +65,12 @@ def load_actions(sys_req_slots, sys_inf_slots):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--dict_path', dest='dict_path', type=str, default='./deep_dialog/data_restaurant/dict_restaurant.p', help='path to the .json dictionary file')
-    parser.add_argument('--kb_path', dest='kb_path', type=str, default='./deep_dialog/data_restaurant/restaurant_kb.1k.p', help='path to the movie kb .json file')
+    parser.add_argument('--dict_path', dest='dict_path', type=str, default='./deep_dialog/data_restaurant/slot_dict.v2.p', help='path to the .json dictionary file')
+    parser.add_argument('--kb_path', dest='kb_path', type=str, default='./deep_dialog/data_restaurant/restaurant.kb.1k.v1.p', help='path to the movie kb .json file')
     parser.add_argument('--act_set', dest='act_set', type=str, default='./deep_dialog/data_restaurant/dia_acts.txt', help='path to dia act set; none for loading from labeled file')
-    parser.add_argument('--slot_set', dest='slot_set', type=str, default='./deep_dialog/data_restaurant/slot_set.txt', help='path to slot set; none for loading from labeled file')
-    parser.add_argument('--goal_file_path', dest='goal_file_path', type=str, default='./deep_dialog/data_restaurant/user_goals_first_turn_template.part.restaurant.v2.p', help='a list of user goals')
-    parser.add_argument('--diaact_nl_pairs', dest='diaact_nl_pairs', type=str, default='./deep_dialog/data_restaurant/dia_act_nl_pairs.v6.json', help='path to the pre-defined dia_act&NL pairs')
+    parser.add_argument('--slot_set', dest='slot_set', type=str, default='./deep_dialog/data_restaurant/restaurant_slots.txt', help='path to slot set; none for loading from labeled file')
+    parser.add_argument('--goal_file_path', dest='goal_file_path', type=str, default='./deep_dialog/data_restaurant/user_goals_first.v1.p', help='a list of user goals')
+    parser.add_argument('--diaact_nl_pairs', dest='diaact_nl_pairs', type=str, default='./deep_dialog/data_restaurant/sim_dia_act_nl_pairs.v2.json', help='path to the pre-defined dia_act&NL pairs')
 
     parser.add_argument('--max_turn', dest='max_turn', default=20, type=int, help='maximum length of each dialog (default=20, 0=no maximum length)')
     parser.add_argument('--episodes', dest='episodes', default=1, type=int, help='Total number of episodes to run (default=1)')
@@ -84,8 +84,8 @@ if __name__ == "__main__":
     parser.add_argument('--epsilon', dest='epsilon', type=float, default=0, help='Epsilon to determine stochasticity of epsilon-greedy agent policies')
     
     # load NLG & NLU model
-    parser.add_argument('--nlg_model_path', dest='nlg_model_path', type=str, default='./deep_dialog/models/nlg/lstm_tanh_relu_[1468202263.38]_2_0.610.p', help='path to model file')
-    parser.add_argument('--nlu_model_path', dest='nlu_model_path', type=str, default='./deep_dialog/models/nlu/lstm_[1468447442.91]_39_80_0.921.p', help='path to the NLU model file')
+    parser.add_argument('--nlg_model_path', dest='nlg_model_path', type=str, default='./deep_dialog/models/nlg/restaurant/lstm_tanh_[1532068150.19]_98_99_294_0.983.p', help='path to model file')
+    parser.add_argument('--nlu_model_path', dest='nlu_model_path', type=str, default='./deep_dialog/models/nlu/restaurant/lstm_[1532107808.26]_68_74_20_0.997.p', help='path to the NLU model file')
     
     parser.add_argument('--act_level', dest='act_level', type=int, default=0, help='0 for dia_act level; 1 for NL level')
     parser.add_argument('--run_mode', dest='run_mode', type=int, default=0, help='run_mode: 0 for default NL; 1 for dia_act; 2 for both')
