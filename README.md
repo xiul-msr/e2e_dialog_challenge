@@ -2,11 +2,10 @@
 
 ## News
 - [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
-      - Dec. 18, 1PM - 2PM: Invited talks: 1hr<br/>
-      - Dec. 18, 2PM - 2:45PM: Oral presentations: 45mins<br/>
-      - Dec. 18, 2:45PM - 3:30PM: Poster/demo session: 1.5hr<br/>
-      - Dec. 18, 3:30PM - 4:30PM: Coffee break: 15mins<br/>
-      - Dec. 18, 4:30PM - 5PM: Panel discussion: 30mins 
+      - Dec. 18, 1:00PM - 2:00PM: Invited talks: 1hr<br/>
+      - Dec. 18, 2:00PM - 2:45PM: Oral presentations: 45mins<br/>
+      - Dec. 18, 2:45PM - 4:15PM: Coffee/Poster/Demo session: 1.5hr<br/>
+      - Dec. 18, 4:15PM - 5:00PM: Panel discussion: 45mins 
 - [ ] 11/25/2018: Paper acceptance announcement.
 - [ ] 11/11/2018: Paper submission.
 - [ ] 11/04/2018: Results (including human evaluation) Announcement.
