@@ -1,7 +1,7 @@
 # SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
 ## News
-- [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)
+- [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
       - Invited talks: 1hr<br/>
       - Oral presentations: 45mins<br/>
       - Poster/demo session: 1.5hr<br/>
