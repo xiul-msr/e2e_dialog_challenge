@@ -9,7 +9,8 @@
 - [ ] 11/25/2018: Paper acceptance announcement.
 - [ ] 11/11/2018: Paper submission.
 - [ ] 11/04/2018: Results (including human evaluation) Announcement.
-- [ ] 10/14/2018: System submission. (Format to be announaced.)
+- [ ] 10/25/2018: System submission. (Format to be announaced.)
+- [x] 10/14/2018: [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT 2018 - MS Dialogue Challenge - CFP.pdf).
 - [x] 08/03/2018: Movie domain is up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 - [x] 07/28/2018: Restaurant and Taxi domains: [Data](https://github.com/xiul-msr/e2e_dialog_challenge/data/) and [Simulators](https://github.com/xiul-msr/e2e_dialog_challenge/system/) are up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 - [x] 07/16/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLScWl3BYiCLHjR2hGrkehx1kS53vvMTmQ2ktuvGNYSAtiQLSpw/viewform) is now open.
