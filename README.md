@@ -9,7 +9,7 @@
 - [ ] 11/25/2018: Paper acceptance announcement.
 - [ ] 11/11/2018: Paper submission.
 - [ ] 11/04/2018: Results (including human evaluation) Announcement.
-- [ ] 10/25/2018: System submission. (Format to be announaced.)
+- [ ] 10/25/2018: System submission (https://msrprograms.cloudapp.net/MDC2018)
 - [x] 10/14/2018: [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT%202018%20-%20MS%20Dialogue%20Challenge%20-%20CFP.pdf).
 - [x] 08/03/2018: Movie domain is up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 - [x] 07/28/2018: Restaurant and Taxi domains: [Data](https://github.com/xiul-msr/e2e_dialog_challenge/data/) and [Simulators](https://github.com/xiul-msr/e2e_dialog_challenge/system/) are up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
@@ -42,6 +42,10 @@ We will also conduct human evaluation for the competition. We will ask human jud
 ## Baseline Agents
 * A rule-based agent is provided.
 * A standard RL agent (DQN model) is provided.
+
+## System Submission Guidelines
+
+Open an account in https://msrprograms.cloudapp.net/MDC2018 and create a submission with an abstract and code in the form of zip file(<100MB). Include instructions for execution. Submission can be updated without limit no later than 10/14/2018 11:59 PM PST. 
 
 <!---
 ## Timeline
