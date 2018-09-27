@@ -66,7 +66,7 @@ Open an account in https://msrprograms.cloudapp.net/MDC2018 and create a submiss
 * [Sarah Panda](https://www.linkedin.com/in/sarah-panda-7345267b)
 * [Jingjing Liu](https://www.microsoft.com/en-us/research/people/jingjl/)
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
-* [Hao Fang]
+* [Hao Fang](https://www.linkedin.com/in/hao-fang-99778b25)
 
 ## Reference
 If you submit any system to this challenge or publish any other work making use of the resources provided on this project, we ask you to cite the following task description papers:
