@@ -44,7 +44,13 @@ We will also conduct human evaluation for the competition. We will ask human jud
 
 ## System Submission Guidelines
 
-Open an account in https://msrprograms.cloudapp.net/MDC2018 and create a submission with an abstract and code in the form of zip file(<100MB). Include instructions for execution. Submission can be updated without limit no later than 10/14/2018 11:59 PM PST. 
+Open an account in https://msrprograms.cloudapp.net/MDC2018 and create a submission with an abstract and code in the form of zip file(<100MB), trained agent model, and also NLU and NLG models if applicable. Include instructions for execution as below. Submission can be updated without limit no later than 10/14/2018 11:59 PM PST. 
+
+Instructions to run the sample submission in the SubmissionSample folder.
+1.	Extract run.zip file
+2.	Run testrun.py to interact with the agent as below example. 
+
+      > python testrun.py --agt 0 --usr 1 --max_turn 40 --kb_path ./run/deep_dialog/data_movie/movie.kb.1k.v1.p --goal_file_path ./run/deep_dialog/data_movie/user_goals_first.v2.p --slot_set ./run/deep_dialog/data_movie/slot_set.txt --act_set ./run/deep_dialog/data_movie/dia_acts.txt --dict_path ./run/deep_dialog/data_movie/slot_dict.v1.p --nlg_model_path ./run/deep_dialog/models/nlg/movie/lstm_tanh_[1533529279.91]_87_99_199_0.988.p --nlu_model_path ./run/deep_dialog/models/nlu/movie/lstm_[1533588045.3]_38_38_240_0.998.p --diaact_nl_pairs ./run/deep_dialog/data_movie/dia_act_nl_pairs.v7.json --intent_err_prob 0.00 --slot_err_prob 0.00 --episodes 500 --act_level 0 --run_mode 0 --cmd_input_mode 0
 
 <!---
 ## Timeline
