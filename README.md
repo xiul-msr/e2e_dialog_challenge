@@ -7,9 +7,9 @@
       - Dec. 18, 2:45PM - 4:15PM: Coffee/Poster/Demo session: 1.5hr<br/>
       - Dec. 18, 4:15PM - 5:00PM: Panel discussion: 45mins, Panelist: Alex Acero (Apple), Vivian Chen (NTU), Jianfeng Gao (Microsoft), Dilek Hakkani-Tur (Amazon) and Gokhan Tur (Uber)
 - [ ] 11/25/2018: Paper acceptance announcement.
-- [ ] 11/18/2018: Paper submission. [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT%202018%20-%20MS%20Dialogue%20Challenge%20-%20CFP.pdf).
-- [ ] 11/11/2018: Results (including human evaluation) Announcement.
-- [ ] 10/25/2018: System submission (https://msrprograms.cloudapp.net/MDC2018)
+- [ ] 11/09/2018: Paper submission. [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT%202018%20-%20MS%20Dialogue%20Challenge%20-%20CFP.pdf).
+- [ ] 11/08/2018: Results (including human evaluation) Announcement.
+- [x] 10/25/2018: System submission (https://msrprograms.cloudapp.net/MDC2018)
 - [x] 08/03/2018: Movie domain is up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 - [x] 07/28/2018: Restaurant and Taxi domains: [Data](https://github.com/xiul-msr/e2e_dialog_challenge/data/) and [Simulators](https://github.com/xiul-msr/e2e_dialog_challenge/system/) are up, see [cmd.md](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/cmd.md) for instruction.
 - [x] 07/16/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLScWl3BYiCLHjR2hGrkehx1kS53vvMTmQ2ktuvGNYSAtiQLSpw/viewform) is now open.
