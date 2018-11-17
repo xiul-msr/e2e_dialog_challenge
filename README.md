@@ -3,8 +3,8 @@
 ## News
 - [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
       - Dec. 18, 1:00PM - 3:30PM: Invited talks: 1hr, Speakers: 
-        - Vivian Chen (NTU)<br/>
-        - Minlie Huang (Tsinghua)<br/>
+          - Vivian Chen (NTU)<br/>
+          - Minlie Huang (Tsinghua)<br/>
         - Sungjin Lee (MSR)<br/>
         - Gokhan Tur (Uber)<br/>
       - Dec. 18, 3:30PM - 4:30PM: Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist: 
