@@ -2,10 +2,8 @@
 
 ## News
 - [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
-      - Dec. 18, 1:00PM - 2:00PM: Invited talks: 1hr, Speakers: Vivian Chen (NTU), Dilek Hakkani-Tur (Amazon) and Gokhan Tur (Uber)<br/>
-      - Dec. 18, 2:00PM - 2:45PM: Oral presentations: 45mins<br/>
-      - Dec. 18, 2:45PM - 4:15PM: Coffee/Poster/Demo session: 1.5hr<br/>
-      - Dec. 18, 4:15PM - 5:00PM: Panel discussion: 45mins, Panelist: Alex Acero (Apple), Vivian Chen (NTU), Jianfeng Gao (Microsoft), Dilek Hakkani-Tur (Amazon), Spyros Matsoukas (Amazon) and Gokhan Tur (Uber)
+      - Dec. 18, 1:00PM - 3:30PM: Invited talks: 1hr, Speakers: Vivian Chen (NTU), Minlie Huang(Tsinghua), Sungjin Lee (MSR) and Gokhan Tur (Uber)<br/>
+      - Dec. 18, 3:30PM - 4:30PM: Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist: Alex Acero (Apple), Vivian Chen (NTU), Jianfeng Gao (Microsoft), Minlie Huang(Tsinghua), Sungjin Lee (NSR), Spyros Matsoukas (Amazon) and Gokhan Tur (Uber)
 - [ ] 11/25/2018: Paper acceptance announcement.
 - [ ] 11/09/2018: Paper submission. [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT%202018%20-%20MS%20Dialogue%20Challenge%20-%20CFP.pdf).
 - [x] 11/08/2018: [Results](https://xiul-msr.github.io/e2e_dialog_challenge/board/leaderboard) (including human evaluation) Announced.
