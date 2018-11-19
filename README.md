@@ -11,7 +11,7 @@
         - Alex Acero (Apple)<br/>
         - Vivian Chen (NTU)<br/>
         - Minlie Huang (Tsinghua)<br/>
-        - Sungjin Lee (NSR)<br/>
+        - Sungjin Lee (MSR)<br/>
         - Spyros Matsoukas (Amazon)<br/>
         - Gokhan Tur (Uber)<br/>
 - [ ] 11/25/2018: Paper acceptance announcement.
