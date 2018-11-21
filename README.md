@@ -7,6 +7,8 @@
         - Vivian Chen (NTU)<br/>
         - Minlie Huang (Tsinghua)<br/>
         - Gokhan Tur (Uber)<br/>
+        - Oral presentation: Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
+        - Oral presentation: Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
       Dec. 18, 3:30PM - 4:30PM: Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist: <br/>
         - Alex Acero (Apple)<br/>
         - Vivian Chen (NTU)<br/>
