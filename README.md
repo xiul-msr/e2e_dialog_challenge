@@ -5,7 +5,7 @@
       Dec. 18, 1:00PM - 3:30PM: Invited talks: 1hr, Speakers: <br/>
         - Sungjin Lee (MSR)<br/>
         - Vivian Chen (NTU)<br/>
-        - Minlie Huang (Tsinghua)<br/>
+        - Minlie Huang (Tsinghua) - "Towards Building More Intelligent Dialogue Systems: Semantics, Consistency, and Interactiveness"<br/> 
         - Gokhan Tur (Uber)<br/>
         - Oral presentation: Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
         - Oral presentation: Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
