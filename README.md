@@ -3,10 +3,10 @@
 ## News
 - [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
       Dec. 18, 1:00PM - 3:30PM: Invited talks: 1hr, Speakers: <br/>
-        - Sungjin Lee (MSR)<br/>
-        - Vivian Chen (NTU)<br/>
+        - Sungjin Lee (MSR) - "MS dialogue challenge: result and outlook"<br/>
+        - Vivian Chen (NTU) - "Towards Open-Domain Conversational AI"<br/>
         - Minlie Huang (Tsinghua) - "Towards Building More Intelligent Dialogue Systems: Semantics, Consistency, and Interactiveness"<br/> 
-        - Gokhan Tur (Uber)<br/>
+        - Gokhan Tur (Uber) - "Past, Present, and Future of Conversational AI"<br/>
         - Oral presentation: Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
         - Oral presentation: Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
       Dec. 18, 3:30PM - 4:30PM: Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist: <br/>
