@@ -1,5 +1,23 @@
 # SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
+## Schedule
+1.  1:00 - 1:10 Jianfeng Gao: opening<br/>
+2.  1:10 – 1:40 Gokhan Tur (Uber): "Past, Present, and Future of Conversational AI"<br/>
+3.  1:40 – 2:10 Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
+4.  2:10 – 2:40 Vivian Chen (NTU): "Towards Open-Domain Conversational AI"<br/>
+5.  2:40 – 3:00 break<br/>
+6.  3:00 – 3:20 Sungjin Lee (MSR): "MS dialogue challenge: result and outlook"<br/>
+7.  3:20 – 3:35 Oral presentation 1 by Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
+8.  3:35 – 3:50 Oral presentation 2 by Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
+9.  3:50 – 4:30 Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist:<br/>
+    - Alex Acero (Apple)<br/>
+    - Vivian Chen (NTU)<br/>
+    - Minlie Huang (Tsinghua)<br/>
+    - Sungjin Lee (MSR)<br/>
+    - Spyros Matsoukas (Amazon)<br/>
+    - Gokhan Tur (Uber)<br/>
+
+
 ## News
 - [ ] 12/18/2018 – 12/21/2018: [SLT Workshop](http://www.slt2018.org/news/)<br/>
       Dec. 18, 1:00PM - 3:30PM: Invited talks: 1hr, Speakers: <br/>
@@ -16,7 +34,7 @@
         - Sungjin Lee (MSR)<br/>
         - Spyros Matsoukas (Amazon)<br/>
         - Gokhan Tur (Uber)<br/>
-- [ ] 11/25/2018: Paper acceptance announcement.
+- [x] 11/25/2018: Paper acceptance announcement.
 - [x] 11/09/2018: Paper submission. [Call for Papers](https://github.com/xiul-msr/e2e_dialog_challenge/blob/master/SLT%202018%20-%20MS%20Dialogue%20Challenge%20-%20CFP.pdf).
 - [x] 11/08/2018: [Results](https://xiul-msr.github.io/e2e_dialog_challenge/board/leaderboard) (including human evaluation) Announced.
 - [x] 10/25/2018: System submission (https://msrprograms.cloudapp.net/MDC2018)
