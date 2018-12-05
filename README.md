@@ -1,15 +1,15 @@
 # SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
-## Schedule
-1.  1:00 - 1:10 Jianfeng Gao: opening<br/>
-2.  1:10 – 1:40 Gokhan Tur (Uber): "Past, Present, and Future of Conversational AI"<br/>
-3.  1:40 – 2:10 Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
-4.  2:10 – 2:40 Vivian Chen (NTU): "Towards Open-Domain Conversational AI"<br/>
-5.  2:40 – 3:00 break<br/>
-6.  3:00 – 3:20 Sungjin Lee (MSR): "MS dialogue challenge: result and outlook"<br/>
-7.  3:20 – 3:35 Oral presentation 1 by Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
-8.  3:35 – 3:50 Oral presentation 2 by Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
-9.  3:50 – 4:30 Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist:<br/>
+## Schedule: Dec. 18, 2018, 1PM - 5PM,  [Olympia Plenary Room](http://www.slt2018.org/technical-programme/)
+1.  1:00 - 1:10PM Jianfeng Gao: opening<br/>
+2.  1:10 – 1:40PM Gokhan Tur (Uber): "Past, Present, and Future of Conversational AI"<br/>
+3.  1:40 – 2:10PM Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
+4.  2:10 – 2:40PM Vivian Chen (NTU): "Towards Open-Domain Conversational AI"<br/>
+5.  2:40 – 3:00PM break<br/>
+6.  3:00 – 3:20PM Sungjin Lee (MSR): "MS dialogue challenge: result and outlook"<br/>
+7.  3:20 – 3:35PM Oral presentation 1 by Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context"<br/>
+8.  3:35 – 3:50PM Oral presentation 2 by Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning"<br/>
+9.  3:50 – 4:30PM Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist:<br/>
     - Alex Acero (Apple)<br/>
     - Vivian Chen (NTU)<br/>
     - Minlie Huang (Tsinghua)<br/>
