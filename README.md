@@ -3,7 +3,7 @@
 ## Schedule: Dec. 18, 2018, 1PM - 5PM,  [Olympia Plenary Room](http://www.slt2018.org/technical-programme/)
 1.  1:00 - 1:10PM Jianfeng Gao: opening<br/>
 2.  1:10 – 1:40PM Gokhan Tur (Uber): "Past, Present, and Future of Conversational AI" ([slides]())<br/>
-3.  1:40 – 2:10PM Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context" ([slides](./slides/2018-SLT-Tsinghua-MinlieHuang.pptx))<br/>
+3.  1:40 – 2:10PM Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context" ([slides](./slides/2018-SLT-Tsinghua-MinlieHuang.pdf))<br/>
 4.  2:10 – 2:40PM Vivian Chen (NTU): "Towards Open-Domain Conversational AI" ([slides](./slides/181217_SLT-MSChallenge_Vivian.pptx))<br/>
 5.  2:40 – 3:00PM break<br/>
 6.  3:00 – 3:20PM Sungjin Lee (MSR): "MS dialogue challenge: result and outlook" ([slides](./slides/MS_dialog_challenge_result_outlook_sungjin.pptx))<br/>
