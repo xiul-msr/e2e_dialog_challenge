@@ -3,12 +3,12 @@
 ## Schedule: Dec. 18, 2018, 1PM - 5PM,  [Olympia Plenary Room](http://www.slt2018.org/technical-programme/)
 1.  1:00 - 1:10PM Jianfeng Gao: opening<br/>
 2.  1:10 – 1:40PM Gokhan Tur (Uber): "Past, Present, and Future of Conversational AI" ([slides]())<br/>
-3.  1:40 – 2:10PM Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context" ([slides](./slides/2018-SLT-Tsinghua-MinlieHuang.pdf))<br/>
+3.  1:40 – 2:10PM Minlie Huang (Tsinghua): "Universe Model: A Human-like User Simulator Based on Dialogue Context" ([slides](./slides/2018-SLT-Tsinghua-MinlieHuang.pptx))<br/>
 4.  2:10 – 2:40PM Vivian Chen (NTU): "Towards Open-Domain Conversational AI" ([slides](./slides/181217_SLT-MSChallenge_Vivian.pptx))<br/>
 5.  2:40 – 3:00PM break<br/>
 6.  3:00 – 3:20PM Sungjin Lee (MSR): "MS dialogue challenge: result and outlook" ([slides](./slides/MS_dialog_challenge_result_outlook_sungjin.pptx))<br/>
 7.  3:20 – 3:35PM Oral presentation 1 by Sihong Liu - "Universe Model: A Human-like User Simulator Based on Dialogue Context" ([slides](./slides/Oral_ppt_sihong_liu.pptx))<br/>
-8.  3:35 – 3:50PM Oral presentation 2 by Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning" ([slides](./slides/Oral_slides_yu-an_wang.pdf))<br/>
+8.  3:35 – 3:50PM Oral presentation 2 by Yu-An Wang - "Double dueling Agent for Dialogue Policy Learning" ([slides](./slides/Oral_slides_yu-an_wang.pptx))<br/>
 9.  3:50 – 4:30PM Panel discussion (chaired by Jianfeng Gao): 45mins, Panelist:<br/>
     - Alex Acero (Apple)<br/>
     - Vivian Chen (NTU)<br/>
