@@ -3316,7 +3316,7 @@ session.ID	Message.ID	Message.Timestamp	Message.From	Message.Text	Annotation_Res
 360	15	2016-03-11T20:46:34.718Z	user	how about 7:00am	request(pickup_time=7am)
 360	16	2016-03-11T21:06:01.139Z	agent	I have successfully booked your uberXL. Enjoy your ride.	inform(taskcomplete;car_type=uberXL;closing=enjoy your ride)
 360	17	2016-03-11T21:06:36.649Z	user	thank you	thanks()
-360	18	2016-03-11T21:37:57.779Z	agent	"You're welcome, have a nice day."	welcome	closing(closing=have a nice day)
+360	18	2016-03-11T21:37:57.779Z	agent	"You're welcome, have a nice day."	welcome()	closing(closing=have a nice day)
 361	1	2016-03-11T02:23:08.153Z	user	"Can I get someone to pick my family of five up from the Seattle-Tacoma International Airport tonight. Our flight comes in at 7pm. The airport’s address is 17801 International Blvd, Seattle, WA 98158. We need a ride home. Our address is 323 Queen Anne Ave N, Seattle, WA 98109."	request(taxi;numberofpeople=5;pickup_location=17801 International Blvd;pickup_location_city=seattle;state=WA;date=tonight;pickup_time=7pm;dropoff_location=323 Queen Anne Ave N)
 361	2	2016-03-11T03:38:29.856Z	agent	$31-42 is the price for an uberX. Would you like this option?	inform(cost=$31-42;car_type=uberX)	confirm_question()
 361	3	2016-03-11T03:39:09.994Z	user	ok yes!	confirm_answer()
