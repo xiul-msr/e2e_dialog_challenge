@@ -4404,7 +4404,7 @@ session.ID	Message.ID	Message.Timestamp	Message.From	Message.Text	Annotation_Res
 469	9	2016-03-11T00:41:14.625Z	user	Main Street Toronto	inform(dropoff_location=Main Street;dropoff_location_city=Toronto)
 469	10	2016-03-11T00:51:57.083Z	agent	How many passengers?	request(numberofpeople)
 469	11	2016-03-11T01:06:19.597Z	user	1	inform(numberofpeople=1)
-469	12	2016-03-11T04:46:48.952Z	agent	We are unable to provide an uber for this route.	inform(result={},car_type=uber)
+469	12	2016-03-11T04:46:48.952Z	agent	We are unable to provide an uber for this route.	inform(result={};car_type=uber)
 469	13	2016-03-11T13:36:59.493Z	user	pro_2016-03-09T00-28-08_a543841f-7f09-4575-8f75-4092c0b71b30	inform(other=pro_2016-03-09T00-28-08_a543841f-7f09-4575-8f75-4092c0b71b30)
 469	14	2016-03-11T15:15:24.758Z	agent	"I'm sorry, there was an error in your response. If you'd like to try a different route, I would be happy to help."	inform(other=I'm sorry, there was an error in your response)	request(other=If you'd like to try a different route, I would be happy to help)
 470	1	2016-03-11T01:36:38.889Z	user	I wish to book a taxi for 3 people today at 4pm going from JFK in NYC to the New York Transit museum.	request(taxi;numberofpeople=3;date=today;pickup_time=4pm;pickup_location=JFK;pickup_location_city=NYC;dropoff_location=the New York Transit museum)
